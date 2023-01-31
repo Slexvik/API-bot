@@ -65,7 +65,6 @@ def get_api_answer(timestamp):
     """Опрашиваем эндпоинт, возвращаем словарь с ДЗ."""
     logging.info("Старт запуская обращения к АПИ")
     payload = {'from_date': timestamp}
-    # payload = {'from_date': 1672558471}
     try:
         response = requests.get(ENDPOINT,
                                 headers=HEADERS,
