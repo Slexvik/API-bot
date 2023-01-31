@@ -44,7 +44,8 @@ def check_tokens():
                       value in variables if value is None]
     if missing_tokens:
         logging.critical("Отсутствует обязательная переменная окружения:"
-            f"{missing_tokens}. Программа принудительно остановлена")
+                         f"missing_tokens"
+                         "Программа принудительно остановлена")
         return sys.exit()
     return True
 
