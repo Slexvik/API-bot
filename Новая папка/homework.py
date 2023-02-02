@@ -49,7 +49,6 @@ def check_tokens():
     if missing_tokens:
         logging.critical(ERROR_MESSEGE.format(mis_tokens=missing_tokens))
         return sys.exit(ERROR_MESSEGE.format(mis_tokens=missing_tokens))
-    return True
 
 
 def send_message(bot, message):
@@ -66,8 +65,9 @@ def send_message(bot, message):
 
 def get_api_answer(timestamp):
     """Опрашиваем эндпоинт, возвращаем словарь с ДЗ."""
-    logging.info("Старт запуская обращения к АПИ")
-    payload = {'from_date': timestamp}
+    logging.debug('Старт запуская обращения к АПИ')
+    # payload = {'from_date': timestamp}
+    payload = {'from_date': 1675125074}
     try:
         response = requests.get(ENDPOINT,
                                 headers=HEADERS,
