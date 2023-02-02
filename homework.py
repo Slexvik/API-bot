@@ -49,7 +49,7 @@ def check_tokens():
     if missing_tokens:
         logging.critical(ERROR_MESSEGE.format(mis_tokens=missing_tokens))
         return sys.exit(ERROR_MESSEGE.format(mis_tokens=missing_tokens))
-    
+
 
 def send_message(bot, message):
     """Отправка сообщений."""
