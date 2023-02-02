@@ -12,5 +12,11 @@ class Not200ResponseCode(Exception):
 
 class ConnectinError(Exception):
     """Не верный код ответа."""
-    
+
+    pass
+
+
+class ResponseEmpty(Exception):
+    """Пустой ответ АПИ."""
+
     pass

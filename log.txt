@@ -264,3 +264,294 @@
 2023-01-31 13:00:45,426, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 66
 2023-01-31 13:00:45,565, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
 2023-01-31 13:00:47,055, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675144845 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-01 13:15:11,327, INFO, Начало проверки,Файл - homework.py, Строка № 108
+2023-02-01 13:15:11,327, INFO, Старт проверки наличия токенов,Файл - homework.py, Строка № 39
+2023-02-01 13:15:11,339, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 67
+2023-02-01 13:15:11,432, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 13:15:13,597, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 13:15:16,678, INFO, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 84
+2023-02-01 13:15:33,509, INFO, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 95
+2023-02-01 13:15:43,449, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-01 13:15:45,565, DEBUG, {'text': 'Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.', 'delete_chat_photo': False, 'photo': [], 'group_chat_created': False, 'supergroup_chat_created': False, 'new_chat_members': [], 'chat': {'last_name': 'S', 'first_name': 'Alexey', 'id': 397784581, 'type': 'private', 'username': 'slexvik'}, 'new_chat_photo': [], 'caption_entities': [], 'date': 1675232144, 'channel_chat_created': False, 'message_id': 139, 'entities': [], 'from': {'first_name': 'My trainer robot', 'username': 'MyTrainerRobot', 'is_bot': True, 'id': 5762476788}},Файл - bot.py, Строка № 131
+2023-02-01 13:15:45,573, DEBUG, Exiting: send_message,Файл - bot.py, Строка № 132
+2023-02-01 13:15:56,412, DEBUG, Сообщение отправлено: Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.,Файл - homework.py, Строка № 62
+2023-02-01 13:18:33,242, INFO, Начало проверки,Файл - homework.py, Строка № 108
+2023-02-01 13:18:33,242, INFO, Старт проверки наличия токенов,Файл - homework.py, Строка № 39
+2023-02-01 13:18:33,260, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 67
+2023-02-01 13:18:33,350, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 13:18:35,429, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675232313 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-01 13:18:39,828, INFO, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 84
+2023-02-01 17:34:05,204, INFO, Старт проверки наличия токенов,Файл - homework.py, Строка № 32
+2023-02-01 17:34:05,204, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 59
+2023-02-01 17:34:05,234, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 17:34:06,862, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 17:34:06,896, INFO, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-01 17:34:06,898, INFO, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 85
+2023-02-01 17:34:06,901, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-01 17:34:08,099, DEBUG, {'photo': [], 'caption_entities': [], 'date': 1675247646, 'text': 'Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.', 'entities': [], 'message_id': 141, 'delete_chat_photo': False, 'new_chat_members': [], 'supergroup_chat_created': False, 'group_chat_created': False, 'channel_chat_created': False, 'chat': {'id': 397784581, 'username': 'slexvik', 'last_name': 'S', 'first_name': 'Alexey', 'type': 'private'}, 'new_chat_photo': [], 'from': {'id': 5762476788, 'is_bot': True, 'first_name': 'My trainer robot', 'username': 'MyTrainerRobot'}},Файл - bot.py, Строка № 131
+2023-02-01 17:34:08,099, DEBUG, Exiting: send_message,Файл - bot.py, Строка № 132
+2023-02-01 17:34:08,099, DEBUG, Сообщение отправлено: Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.,Файл - homework.py, Строка № 54
+2023-02-01 17:34:37,176, INFO, Старт проверки наличия токенов,Файл - homework.py, Строка № 32
+2023-02-01 17:34:37,194, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 59
+2023-02-01 17:34:37,280, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 17:34:38,767, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 17:37:41,616, INFO, Старт проверки наличия токенов,Файл - homework.py, Строка № 32
+2023-02-01 17:37:41,632, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 59
+2023-02-01 17:37:41,719, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 17:37:43,311, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 17:37:47,234, INFO, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-01 17:38:17,967, ERROR, Сбой в работе программы: 'list' object has no attribute 'get',Файл - homework.py, Строка № 119
+2023-02-01 17:40:32,171, INFO, Старт проверки наличия токенов,Файл - homework.py, Строка № 32
+2023-02-01 17:40:32,177, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 59
+2023-02-01 17:40:32,263, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 17:40:34,085, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 17:40:39,886, INFO, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-01 17:41:07,045, ERROR, Сбой в работе программы: list indices must be integers or slices, not str,Файл - homework.py, Строка № 119
+2023-02-01 17:46:19,559, INFO, Старт проверки наличия токенов,Файл - homework.py, Строка № 32
+2023-02-01 17:46:19,565, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 59
+2023-02-01 17:46:19,685, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 17:46:21,216, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 17:47:02,848, INFO, Старт проверки наличия токенов,Файл - homework.py, Строка № 32
+2023-02-01 17:47:02,864, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 59
+2023-02-01 17:47:02,964, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 17:47:04,561, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 17:47:08,635, INFO, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-01 17:47:20,837, INFO, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 85
+2023-02-01 17:47:37,681, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-01 17:47:38,805, DEBUG, {'chat': {'username': 'slexvik', 'type': 'private', 'id': 397784581, 'last_name': 'S', 'first_name': 'Alexey'}, 'supergroup_chat_created': False, 'delete_chat_photo': False, 'caption_entities': [], 'text': 'Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.', 'message_id': 142, 'date': 1675248456, 'group_chat_created': False, 'new_chat_photo': [], 'entities': [], 'channel_chat_created': False, 'new_chat_members': [], 'photo': [], 'from': {'username': 'MyTrainerRobot', 'is_bot': True, 'first_name': 'My trainer robot', 'id': 5762476788}},Файл - bot.py, Строка № 131
+2023-02-01 17:47:38,805, DEBUG, Exiting: send_message,Файл - bot.py, Строка № 132
+2023-02-01 17:47:43,855, DEBUG, Сообщение отправлено: Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.,Файл - homework.py, Строка № 54
+2023-02-01 18:38:27,625, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-01 18:38:27,625, CRITICAL, Отсутствует обязательная переменная окружения:['TELEGRAM_CHAT_ID'] Программа принудительно остановлена,Файл - homework.py, Строка № 41
+2023-02-01 18:56:42,781, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-01 18:56:42,800, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 60
+2023-02-01 18:56:42,899, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 18:56:45,142, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 18:56:48,056, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 78
+2023-02-01 18:57:00,448, ERROR, Сбой в работе программы: Ответ должен быть словарем, а не <class 'list'>,Файл - homework.py, Строка № 123
+2023-02-01 19:02:14,037, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-01 19:02:14,043, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 60
+2023-02-01 19:02:14,136, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 19:02:16,476, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 19:02:18,259, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 78
+2023-02-01 19:02:29,297, ERROR, Сбой в работе программы: 'NoneType' object has no attribute '__name__',Файл - homework.py, Строка № 123
+2023-02-01 19:03:14,193, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-01 19:03:14,200, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 60
+2023-02-01 19:03:14,288, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 19:03:16,321, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 19:03:20,481, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 78
+2023-02-01 19:03:25,486, ERROR, Сбой в работе программы: Ответ должен быть словарем, а не list,Файл - homework.py, Строка № 123
+2023-02-01 19:07:43,696, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-01 19:07:43,705, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 60
+2023-02-01 19:07:43,823, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 19:07:46,597, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 19:07:48,822, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 78
+2023-02-01 19:08:02,844, ERROR, Сбой в работе программы: Homeworks должен быть списком, а не <class 'NoneType'>,Файл - homework.py, Строка № 124
+2023-02-01 21:24:36,998, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-01 21:24:37,017, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 60
+2023-02-01 21:24:37,111, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-01 21:24:39,317, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-01 21:24:49,862, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 78
+2023-02-01 21:24:58,967, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-01 21:25:30,070, ERROR, Сбой в работе программы: list indices must be integers or slices, not str,Файл - homework.py, Строка № 124
+2023-02-01 21:25:46,241, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 48
+2023-02-01 21:25:47,273, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-01 21:25:48,828, DEBUG, {'date': 1675261549, 'chat': {'first_name': 'Alexey', 'type': 'private', 'id': 397784581, 'username': 'slexvik', 'last_name': 'S'}, 'text': 'Сбой в работе программы: list indices must be integers or slices, not str', 'new_chat_photo': [], 'new_chat_members': [], 'supergroup_chat_created': False, 'caption_entities': [], 'message_id': 143, 'photo': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'entities': [], 'group_chat_created': False, 'from': {'is_bot': True, 'first_name': 'My trainer robot', 'id': 5762476788, 'username': 'MyTrainerRobot'}},Файл - bot.py, Строка № 131
+2023-02-01 21:25:48,843, DEBUG, Exiting: send_message,Файл - bot.py, Строка № 132
+2023-02-01 21:26:03,611, DEBUG, Сообщение отправлено: Сбой в работе программы: list indices must be integers or slices, not str,Файл - homework.py, Строка № 55
+2023-02-02 10:06:56,541, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 10:06:56,553, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 60
+2023-02-02 10:06:56,650, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 10:06:58,384, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675307216 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 10:07:04,973, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 78
+2023-02-02 10:07:08,500, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 10:07:20,548, INFO, 1675307218,Файл - homework.py, Строка № 122
+2023-02-02 10:07:31,098, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 60
+2023-02-02 10:07:31,165, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 10:07:32,612, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675307218 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 10:07:36,048, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 78
+2023-02-02 10:07:38,126, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 10:07:43,950, INFO, 1675307252,Файл - homework.py, Строка № 122
+2023-02-02 10:30:20,240, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 10:30:20,256, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 10:30:20,351, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 10:30:22,267, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675308620 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 10:30:25,810, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 10:30:36,888, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 10:30:43,283, INFO, 1675308622,Файл - homework.py, Строка № 122
+2023-02-02 10:34:07,379, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 10:34:07,397, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 10:34:07,481, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 10:34:08,900, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675308847 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 10:34:08,936, ERROR, Сбой в работе программы: list index out of range,Файл - homework.py, Строка № 128
+2023-02-02 10:34:08,938, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 48
+2023-02-02 10:34:08,941, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-02 10:34:11,039, DEBUG, {'new_chat_members': [], 'delete_chat_photo': False, 'new_chat_photo': [], 'text': 'Сбой в работе программы: list index out of range', 'message_id': 144, 'entities': [], 'photo': [], 'supergroup_chat_created': False, 'group_chat_created': False, 'chat': {'username': 'slexvik', 'last_name': 'S', 'id': 397784581, 'type': 'private', 'first_name': 'Alexey'}, 'caption_entities': [], 'date': 1675308850, 'channel_chat_created': False, 'from': {'first_name': 'My trainer robot', 'is_bot': True, 'username': 'MyTrainerRobot', 'id': 5762476788}},Файл - bot.py, Строка № 131
+2023-02-02 10:34:11,039, DEBUG, Exiting: send_message,Файл - bot.py, Строка № 132
+2023-02-02 10:34:11,051, DEBUG, Сообщение отправлено: Сбой в работе программы: list index out of range,Файл - homework.py, Строка № 53
+2023-02-02 10:35:30,337, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 10:35:42,734, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 10:35:48,523, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 10:35:49,992, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675308930 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 10:36:14,784, ERROR, Сбой в работе программы: list index out of range,Файл - homework.py, Строка № 128
+2023-02-02 10:37:14,921, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 10:37:19,268, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 10:37:23,498, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 10:37:24,981, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 10:37:31,938, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 10:37:43,929, ERROR, Сбой в работе программы: Пустой ответ от API,Файл - homework.py, Строка № 128
+2023-02-02 10:58:43,900, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 10:58:43,907, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 10:58:44,002, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 10:58:45,714, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 10:58:45,775, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:03:16,104, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 11:03:16,114, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:03:16,195, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:03:17,600, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:03:17,631, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:03:25,918, INFO, В ответе от API нет ключа homeworks,Файл - homework.py, Строка № 127
+2023-02-02 11:15:51,914, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 11:15:51,921, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:15:52,008, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:15:53,504, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:15:53,562, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:16:04,521, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:16:27,024, DEBUG, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 90
+2023-02-02 11:17:20,228, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 11:17:20,234, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:17:20,315, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:17:22,060, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:17:22,096, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:17:27,823, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:17:37,697, DEBUG, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 90
+2023-02-02 11:18:18,752, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:18:18,861, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:18:20,248, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:18:22,682, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:18:28,612, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:19:53,197, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 11:19:53,204, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:19:53,310, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:19:54,784, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:19:54,814, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:20:03,295, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:20:10,227, DEBUG, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 90
+2023-02-02 11:20:13,406, DEBUG, Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.,Файл - homework.py, Строка № 117
+2023-02-02 11:20:30,242, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:20:30,313, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:20:31,704, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:20:33,636, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:20:38,998, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:20:47,467, DEBUG, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 90
+2023-02-02 11:20:54,265, DEBUG, Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.,Файл - homework.py, Строка № 117
+2023-02-02 11:48:19,291, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 11:48:26,362, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:48:26,478, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:48:27,967, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:48:29,862, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:48:29,864, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:48:42,159, DEBUG, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 90
+2023-02-02 11:48:53,385, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 48
+2023-02-02 11:48:54,172, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-02 11:48:55,281, DEBUG, {'group_chat_created': False, 'chat': {'id': 397784581, 'type': 'private', 'username': 'slexvik', 'last_name': 'S', 'first_name': 'Alexey'}, 'date': 1675313335, 'caption_entities': [], 'text': 'Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.', 'new_chat_photo': [], 'channel_chat_created': False, 'message_id': 145, 'supergroup_chat_created': False, 'photo': [], 'new_chat_members': [], 'entities': [], 'delete_chat_photo': False, 'from': {'id': 5762476788, 'is_bot': True, 'username': 'MyTrainerRobot', 'first_name': 'My trainer robot'}},Файл - bot.py, Строка № 131
+2023-02-02 11:48:55,296, DEBUG, Exiting: send_message,Файл - bot.py, Строка № 132
+2023-02-02 11:48:56,727, DEBUG, Сообщение отправлено: Изменился статус проверки работы "Slexvik__homework_bot.zip". Работа проверена: у ревьюера есть замечания.,Файл - homework.py, Строка № 53
+2023-02-02 11:49:16,340, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:49:21,676, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:49:23,080, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:49:31,231, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:49:31,242, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:49:40,620, DEBUG, Статус ДЗ не изменился,Файл - homework.py, Строка № 120
+2023-02-02 11:49:53,238, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:49:53,337, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:49:55,116, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:49:58,043, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:49:58,046, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:50:04,417, DEBUG, Статус ДЗ не изменился,Файл - homework.py, Строка № 120
+2023-02-02 11:50:16,409, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:50:16,476, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 11:50:17,851, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 11:50:19,059, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 76
+2023-02-02 11:50:19,063, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 11:50:23,671, DEBUG, Статус ДЗ не изменился,Файл - homework.py, Строка № 120
+2023-02-02 11:50:57,244, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 34
+2023-02-02 11:51:09,880, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:51:30,845, ERROR, Сбой в работе программы: local variable 'response' referenced before assignment,Файл - homework.py, Строка № 130
+2023-02-02 11:51:37,116, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 48
+2023-02-02 11:51:39,383, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-02 11:51:40,565, DEBUG, {'message_id': 146, 'new_chat_members': [], 'chat': {'id': 397784581, 'last_name': 'S', 'username': 'slexvik', 'type': 'private', 'first_name': 'Alexey'}, 'supergroup_chat_created': False, 'text': "Сбой в работе программы: local variable 'response' referenced before assignment", 'new_chat_photo': [], 'entities': [], 'delete_chat_photo': False, 'group_chat_created': False, 'photo': [], 'caption_entities': [], 'date': 1675313500, 'channel_chat_created': False, 'from': {'username': 'MyTrainerRobot', 'is_bot': True, 'id': 5762476788, 'first_name': 'My trainer robot'}},Файл - bot.py, Строка № 131
+2023-02-02 11:51:40,584, DEBUG, Exiting: send_message,Файл - bot.py, Строка № 132
+2023-02-02 11:51:44,351, DEBUG, Сообщение отправлено: Сбой в работе программы: local variable 'response' referenced before assignment,Файл - homework.py, Строка № 53
+2023-02-02 11:51:55,915, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:52:02,175, ERROR, Сбой в работе программы: local variable 'response' referenced before assignment,Файл - homework.py, Строка № 130
+2023-02-02 11:52:18,445, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 58
+2023-02-02 11:52:22,250, ERROR, Сбой в работе программы: local variable 'response' referenced before assignment,Файл - homework.py, Строка № 130
+2023-02-02 12:00:34,362, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 12:00:34,371, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 67
+2023-02-02 12:00:34,454, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 12:00:36,352, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 12:00:39,619, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 12:00:52,788, ERROR, Сбой в работе программы: Ответ должен быть словарем, а не list,Файл - homework.py, Строка № 138
+2023-02-02 12:02:37,432, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 12:02:37,440, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 67
+2023-02-02 12:02:37,532, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 12:02:39,027, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 12:02:45,233, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 12:02:57,159, ERROR, Сбой в работе программы: Ответ должен быть словарем, а не списком,Файл - homework.py, Строка № 138
+2023-02-02 12:04:23,780, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 12:04:23,799, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 67
+2023-02-02 12:04:23,888, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 12:04:25,376, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 12:04:28,105, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 12:04:35,529, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 94
+2023-02-02 12:04:42,910, ERROR, Сбой в работе программы: list indices must be integers or slices, not str,Файл - homework.py, Строка № 138
+2023-02-02 12:06:35,891, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 12:06:35,905, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 67
+2023-02-02 12:06:35,995, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 12:06:37,515, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 12:07:00,419, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 12:07:00,437, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 67
+2023-02-02 12:07:00,522, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 12:07:01,988, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 12:07:32,922, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 85
+2023-02-02 12:07:41,827, ERROR, Сбой в работе программы: Homeworks должен быть списком, а не списком ,Файл - homework.py, Строка № 138
+2023-02-02 13:59:46,378, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 68
+2023-02-02 13:59:46,463, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 13:59:48,553, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675321186 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 13:59:48,587, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 86
+2023-02-02 13:59:48,589, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 95
+2023-02-02 13:59:48,591, ERROR, Сбой в работе программы: list index out of range,Файл - homework.py, Строка № 137
+2023-02-02 13:59:48,593, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 57
+2023-02-02 13:59:48,595, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-02 13:59:55,506, ERROR, Сообщения в телеграм не отправляются, Chat_id is empty,Файл - homework.py, Строка № 61
+2023-02-02 14:01:33,720, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 14:01:33,724, CRITICAL, Отсутствует обязательная переменная окружения:['TELEGRAM_CHAT_ID'] Программа принудительно остановлена,Файл - homework.py, Строка № 50
+2023-02-02 14:02:00,830, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 69
+2023-02-02 14:02:00,909, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 14:02:03,340, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675321320 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 14:02:03,387, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 87
+2023-02-02 14:02:03,390, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 96
+2023-02-02 14:02:03,393, ERROR, Сбой в работе программы: list index out of range,Файл - homework.py, Строка № 138
+2023-02-02 14:02:03,395, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 57
+2023-02-02 14:02:03,399, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-02 14:02:09,371, ERROR, Сообщения в телеграм не отправляются, Chat_id is empty,Файл - homework.py, Строка № 61
+2023-02-02 14:05:45,975, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 69
+2023-02-02 14:05:49,926, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 14:05:51,792, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 14:06:01,098, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 87
+2023-02-02 14:06:01,106, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 96
+2023-02-02 14:06:05,558, DEBUG, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 101
+2023-02-02 14:06:09,004, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 57
+2023-02-02 14:06:09,715, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-02 14:06:14,988, ERROR, Сообщения в телеграм не отправляются, Chat_id is empty,Файл - homework.py, Строка № 61
+2023-02-02 14:06:23,707, ERROR, Сообщения в телеграм не отправляются, Chat_id is empty,Файл - homework.py, Строка № 133
+2023-02-02 14:06:56,146, DEBUG, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 69
+2023-02-02 14:06:58,699, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 14:07:00,967, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675125074 HTTP/1.1" 200 943,Файл - connectionpool.py, Строка № 456
+2023-02-02 14:07:03,840, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 87
+2023-02-02 14:07:03,843, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 96
+2023-02-02 14:07:06,696, DEBUG, Старт проверки статусов ДЗ,Файл - homework.py, Строка № 101
+2023-02-02 14:07:08,930, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 57
+2023-02-02 14:07:09,625, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-02 14:07:12,295, ERROR, Сообщения в телеграм не отправляются, Chat_id is empty,Файл - homework.py, Строка № 61
