@@ -555,3 +555,33 @@
 2023-02-02 14:07:08,930, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 57
 2023-02-02 14:07:09,625, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
 2023-02-02 14:07:12,295, ERROR, Сообщения в телеграм не отправляются, Chat_id is empty,Файл - homework.py, Строка № 61
+2023-02-02 14:46:22,834, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 14:46:22,834, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 68
+2023-02-02 14:46:22,864, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 14:46:25,762, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675323982 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 14:46:25,771, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 86
+2023-02-02 14:46:25,772, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 95
+2023-02-02 14:46:25,773, ERROR, Сбой в работе программы: list index out of range,Файл - homework.py, Строка № 134
+2023-02-02 14:46:25,774, DEBUG, Старт отправки сообщения,Файл - homework.py, Строка № 57
+2023-02-02 14:46:25,776, DEBUG, Entering: send_message,Файл - bot.py, Строка № 129
+2023-02-02 14:46:28,494, DEBUG, {'new_chat_members': [], 'caption_entities': [], 'chat': {'last_name': 'S', 'id': 397784581, 'first_name': 'Alexey', 'type': 'private', 'username': 'slexvik'}, 'photo': [], 'message_id': 147, 'group_chat_created': False, 'new_chat_photo': [], 'date': 1675323988, 'text': 'Сбой в работе программы: list index out of range', 'entities': [], 'delete_chat_photo': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 5762476788, 'first_name': 'My trainer robot', 'is_bot': True, 'username': 'MyTrainerRobot'}},Файл - bot.py, Строка № 131
+2023-02-02 14:46:28,504, DEBUG, Exiting: send_message,Файл - bot.py, Строка № 132
+2023-02-02 14:46:28,507, DEBUG, Сообщение отправлено: Сбой в работе программы: list index out of range,Файл - homework.py, Строка № 63
+2023-02-02 14:56:28,513, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 68
+2023-02-02 14:56:28,537, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 14:56:30,090, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675323982 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 14:56:30,099, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 86
+2023-02-02 14:56:30,100, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 95
+2023-02-02 14:56:30,101, ERROR, Сбой в работе программы: list index out of range,Файл - homework.py, Строка № 134
+2023-02-02 14:56:36,227, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 14:56:42,462, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 68
+2023-02-02 14:56:48,945, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 14:56:51,003, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675324596 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 14:57:05,042, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 86
+2023-02-02 14:58:32,764, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 95
+2023-02-02 15:03:14,577, DEBUG, Старт проверки наличия токенов,Файл - homework.py, Строка № 43
+2023-02-02 15:03:19,904, INFO, Старт запуская обращения к АПИ,Файл - homework.py, Строка № 68
+2023-02-02 15:03:23,972, DEBUG, Starting new HTTPS connection (1): practicum.yandex.ru:443,Файл - connectionpool.py, Строка № 1003
+2023-02-02 15:03:25,971, DEBUG, https://practicum.yandex.ru:443 "GET /api/user_api/homework_statuses/?from_date=1675324994 HTTP/1.1" 200 42,Файл - connectionpool.py, Строка № 456
+2023-02-02 15:03:33,628, DEBUG, Старт проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 86
+2023-02-02 15:03:37,376, DEBUG, Конец проверки АПИ на соответствие документацией,Файл - homework.py, Строка № 95

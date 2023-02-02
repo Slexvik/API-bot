@@ -49,7 +49,6 @@ def check_tokens():
     if missing_tokens:
         logging.critical(ERROR_MESSEGE.format(mis_tokens=missing_tokens))
         return sys.exit(ERROR_MESSEGE.format(mis_tokens=missing_tokens))
-    return True
 
 
 def send_message(bot, message):
@@ -68,6 +67,7 @@ def get_api_answer(timestamp):
     """Опрашиваем эндпоинт, возвращаем словарь с ДЗ."""
     logging.info("Старт запуская обращения к АПИ")
     payload = {'from_date': timestamp}
+    # payload = {'from_date': 1672558471}
     try:
         response = requests.get(ENDPOINT,
                                 headers=HEADERS,
@@ -113,28 +113,29 @@ def main():
     check_tokens()
     bot = telegram.Bot(token=TELEGRAM_TOKEN)
     timestamp = int(time.time())
-    message_status = " "
+    previous_message = " "
     while True:
         try:
             response = get_api_answer(timestamp)
             check_response(response)
-            homework = response.get('homeworks')[0]
-            homework_status_updated = homework['status']
-            if homework_status_updated != message_status:
-                message = parse_status(homework)
-                send_message(bot, message)
-                message_status = homework_status_updated
-            else:
-                logging.debug('Статус ДЗ не изменился')
+            if response['homeworks']:
+                homework = response.get('homeworks')[0]
+                homework_status_updated = homework['status']
+                if homework_status_updated != previous_message:
+                    message = parse_status(homework)
+                    send_message(bot, message)
+                    previous_message = homework_status_updated
+                else:
+                    logging.debug('Статус ДЗ не изменился')
             timestamp = response.get('current_date') or int(time.time())
         except exceptions.ResponseEmpty:
             logging.info('В ответе от API нет ключа homeworks')
         except Exception as error:
             message = f'Сбой в работе программы: {error}'
             logging.error(message)
-            if message_status != message:
+            if previous_message != message:
                 send_message(bot, message)
-                message_status = message
+                previous_message = message
         finally:
             time.sleep(RETRY_PERIOD)
 
