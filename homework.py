@@ -25,21 +25,12 @@ HOMEWORK_VERDICTS = {
     'reviewing': 'Работа взята на проверку ревьюером.',
     'rejected': 'Работа проверена: у ревьюера есть замечания.'
 }
-TYPE_VALUE = {
-    "int": "целым числом",
-    "float": "десятичным числом",
-    "complex": "комплексным числом",
-    "str": "строкой",
-    "list": "списком",
-    "tuple": "кортежем",
-    "dict": "словарем",
-}
-ERROR_MESSEGE = ('Отсутствует обязательная переменная окружения:'
-                 '{mis_tokens} Программа принудительно остановлена')
 
 
 def check_tokens():
     """Проверят, что токены не пустые."""
+    ERROR_MESSEGE = ('Отсутствует обязательная переменная окружения:'
+                     '{mis_tokens} Программа принудительно остановлена')
     logging.debug('Старт проверки наличия токенов')
     variables = [('PRACTICUM_TOKEN', PRACTICUM_TOKEN),
                  ('TELEGRAM_TOKEN', TELEGRAM_TOKEN),
@@ -67,30 +58,30 @@ def get_api_answer(timestamp):
     """Опрашиваем эндпоинт, возвращаем словарь с ДЗ."""
     logging.info("Старт запуская обращения к АПИ")
     payload = {'from_date': timestamp}
-    # payload = {'from_date': 1672558471}
     try:
         response = requests.get(ENDPOINT,
                                 headers=HEADERS,
                                 params=payload)
-        return response.json()
     except requests.RequestException as error:
-        raise exceptions.ConnectinError(error)
-    finally:
-        if response.status_code != HTTPStatus.OK:
-            raise exceptions.Not200ResponseCode(
-                f'Сервер дал ответ: {response.status_code}')
+        raise exceptions.ConnectinError(
+            "Произошла ошибка при отправке GET-запроса на "
+            f"{ENDPOINT} со следующими параметрами {payload}. {error}"
+        )
+    if response.status_code != HTTPStatus.OK:
+        raise exceptions.Not200ResponseCode(
+            f'Сервер дал ответ: {response.status_code}')
+    return response.json()
 
 
 def check_response(response):
     """Проверяет ответ АПИ на соответствие с документацией."""
     logging.debug('Старт проверки АПИ на соответствие документацией')
     if not isinstance(response, dict):
-        response = TYPE_VALUE[type(response).__name__]
-        raise TypeError(f'Ответ должен быть словарем, а не {response} ')
+        raise TypeError(f'Ответ должен быть словарем, а не {type(response)} ')
     if 'homeworks' not in response:
-        raise exceptions.ResponseEmpty
+        raise KeyError('В ответе от API нет ключа homeworks')
     if not isinstance(response.get('homeworks'), list):
-        homework = TYPE_VALUE[type(response.get('homeworks')).__name__]
+        homework = type(response.get('homeworks'))
         raise TypeError(f'Homeworks должен быть списком, а не {homework} ')
     logging.debug('Конец проверки АПИ на соответствие документацией')
 
@@ -99,7 +90,7 @@ def parse_status(homework):
     """Получает название и статус домашней работы."""
     logging.debug('Старт проверки статусов ДЗ')
     if 'homework_name' not in homework:
-        raise TypeError('В ответе отсутсвует ключ homework_name')
+        raise KeyError('В ответе отсутсвует ключ homework_name')
     stutus = homework.get('status')
     if stutus not in (HOMEWORK_VERDICTS):
         raise ValueError(f'Неизвестный статус работы - {stutus}')
@@ -118,18 +109,16 @@ def main():
         try:
             response = get_api_answer(timestamp)
             check_response(response)
-            if response['homeworks']:
-                homework = response.get('homeworks')[0]
-                homework_status_updated = homework['status']
-                if homework_status_updated != previous_message:
-                    message = parse_status(homework)
-                    send_message(bot, message)
-                    previous_message = homework_status_updated
-                else:
-                    logging.debug('Статус ДЗ не изменился')
+            if not response['homeworks']:
+                logging.debug('Статус ДЗ не изменился')
+                continue
+            homework = response.get('homeworks')[0]
+            message = parse_status(homework)
+            homework_message = message
+            if homework_message != previous_message:
+                send_message(bot, message)
+                previous_message = homework_message
             timestamp = response.get('current_date') or int(time.time())
-        except exceptions.ResponseEmpty:
-            logging.info('В ответе от API нет ключа homeworks')
         except Exception as error:
             message = f'Сбой в работе программы: {error}'
             logging.error(message)

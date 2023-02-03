@@ -15,8 +15,3 @@ class ConnectinError(Exception):
 
     pass
 
-
-class ResponseEmpty(Exception):
-    """Пустой ответ АПИ."""
-
-    pass
